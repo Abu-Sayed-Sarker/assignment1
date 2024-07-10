@@ -175,3 +175,51 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* Current target section */
+.current-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.current_container {
+  margin-top: 130px;
+  width: 90%;
+}
+
+.current-div {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.current-div-second{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.current-div-thard{
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.current-logo {
+  width: 56px;
+  height: 56px;
+
+}
+.current-h1 {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.current-p {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400; 
+  margin-bottom: 24px;
+}
+.current-button{
+  text-decoration: underline;
+  margin-top: 24px;
+  color: #0D1321;
+  font-weight: 700;
+}
